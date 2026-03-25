@@ -1,4 +1,3 @@
-import 'dart:ui';
 
 import 'package:custompaint_example/utils.dart';
 import 'package:flutter/material.dart';

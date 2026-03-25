@@ -294,7 +294,9 @@ class _GameAreaState extends State<GameArea> {
             isVertical) ||
         ((this.snakeDirection == SnakeDirection.forward ||
                 this.snakeDirection == SnakeDirection.back) &&
-            !isVertical)) return;
+            !isVertical)) {
+      return;
+    }
     this.snakeDirection = snakeDirection;
     _move();
   }
